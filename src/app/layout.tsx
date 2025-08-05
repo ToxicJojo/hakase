@@ -18,7 +18,7 @@ export default function RootLayout({
       <body>
         <div className="h-screen flex flex-col">
           <Header />
-          <main className="container flex-grow p-2 flex flex-col items-center">
+          <main className="container mx-auto flex-grow p-2 flex flex-col items-center">
             {children}
           </main>
           <Footer />
