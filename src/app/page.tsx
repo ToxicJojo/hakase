@@ -6,6 +6,9 @@ export default function Home() {
       <li>
         <Link href="/kana">Kana</Link>
       </li>
+      <li>
+        <Link href="/words">Kana - Words</Link>
+      </li>
     </ul>
   );
 }
